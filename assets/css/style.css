@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+:root{
+    --bg:#202428 !important;
+    --boxShadow: 10px 10px 19px #1c1e22,-10px -10px 19px #262a2e!important;
+    --gradientBg: linear-gradient(270deg,#ae216b,#df4454,#f67a36);
+    --gradientBgImg: linear-gradient(0deg,#692074,#ae216b,#df4454,#f67a36,#f1b51b);
+    --gradientBgBorder: linear-gradient(0deg,#ae216b,#df4454,#f67a36);
+    --color:#ff2e59!important;
+    --style-font:'Playball', cursive;
+    --regular-font:'Poppins', sans-serif;
+    --light:rgb(255,255,255) !important;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+    background-color: var(--bg);
+}
+
+
+
+
+
+/* Navbar Style */
+.nav_bg{
+    background-color: var(--bg);
+}
+.nav_shadow{
+    box-shadow: var(--boxShadow);
+}
+.nav_brand{
+    font-family: var(--style-font);
+    color: var(--light) ;
+    font-size: 2.12rem;
+    font-weight: 400;
+    line-height: 1.235;
+    margin-right: 10px;
+}
+.Nav_color{
+    color: var(--color);
+}
+.nav_text{
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav_hover:hover{
+    color: var(--color);
+    background-color: #1c1e22 !important;
+    box-shadow: var(--boxShadow);
+}
