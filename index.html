@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap Css -->
     <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css" />
+    <!-- FontAwsome  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <!-- style css -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- Title -->
@@ -13,49 +15,82 @@
   </head>
   <body>
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg nav_bg nav_shadow">
-          <div class="container-fluid">
-        <a class="navbar-brand ms-1 nav_brand" href="#">Kawsar Protfolio</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item active">
-              <a class="nav-link Nav_color nav_text nav_hover" href="#">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link Nav_color nav_text nav_hover" href="#"
-                >About</a
-              >
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link Nav_color nav_text nav_hover" href="#"
-                >Protfolio</a
-              >
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link Nav_color nav_text nav_hover" href="#">Blog</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link Nav_color nav_text nav_hover" href="#"
-                >Contact</a
-              >
-            </li>
-          </ul>
+  
+      <nav class="navbar navbar-expand-lg nav_bg nav_shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-1 nav_brand" href="#">Kawsar Protfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars nav_toggle_icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link Nav_color nav_text nav_hover" href="#">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link Nav_color nav_text nav_hover" href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link Nav_color nav_text nav_hover" href="#"
+                  >Protfolio</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link Nav_color nav_text nav_hover" href="#">Blog</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link Nav_color nav_text nav_hover" href="#"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link Nav_color nav_text btn_regular" href="#"
+                  >Download Resume</a
+                >
+              </li>
+            </ul>
+            </ul>
+           
+          </div>
         </div>
       </nav>
-    </div>
     <!-- Navbar End -->
+    <!-- Hero Section Start -->
+    <section class="container section_gap section_shadow" id="hero_section">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
+          <div class="hero_content">
+            <h4 class="sub_title">Hello ! I'm</h4>
+            <h2 class="hero_name">Md Kawsar</h2>
+            <h3 class="sub_title">
+              I'm <span class="element"></span>
+            </h3>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
+          <div class="hero_img section_shadow">
+            <div class="d-flex hero_img_sm justify-content-between  align-items-center align-content-center">
+             <div class="img_bg">
+              <img src="https://i.ibb.co/T2bwZFv/01798021438-removebg-preview.png">
+             </div>
+              <ul class="hero_social">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fab fa-github"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
     <!-- Bootstrap js -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
     <script src="./assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- Type js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js"></script>
+    <script src="./assets/js/TypeJs/type.function.js"></script>
   </body>
 </html>
