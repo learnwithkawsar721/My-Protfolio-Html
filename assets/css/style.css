@@ -11,6 +11,7 @@
     --style-font:'Playball', cursive;
     --regular-font:'Poppins', sans-serif;
     --light:rgb(255,255,255) !important;
+    --gray:rgb(167, 167, 167) !important;
 }
 
 *{
@@ -20,6 +21,8 @@
 }
 body{
     background-color: var(--bg);
+    color: var(--light);
+    font-family: var(--regular-font);
 }
 ul,ol{
     list-style: none;
@@ -123,13 +126,15 @@ a:hover{
 .hero_content{
     padding: 100px 0;
 }
-.hero_content .sub_title{
+.hero_content .sub_title,
+.about_sub{
     color: var(--color);
     font-size: 2.125rem;
     font-weight: 600;
     font-family: var(--regular-font);
 }
-.hero_content .hero_name{
+.hero_content .hero_name,
+.about_name{
     font-size: 3.75rem;
     font-weight: 700;
     line-height: 1.5;
@@ -192,13 +197,66 @@ a:hover{
         margin-top: 30px;
 
     }
-    .hero_content .sub_title {
+    .hero_content .sub_title,.about_sub {
         font-size: 1.125rem;
     }
-    .hero_content .hero_name {
-        font-size: 2.75rem;
+    .hero_content .hero_name,.about_name {
+        font-size: 2.15rem;
     }
     .hero_content {
         padding: 30px 0;
     }
+ }
+
+ /* About Section Style */
+
+ .about_title{
+     color: var(--color);
+     font-family: var(--style-font);
+     text-align: center;
+     padding-top: 30px;
+ }
+ .about_content{
+     padding: 30px 0;
+ }
+
+ .about_text{
+     color: var(--gray);
+ }
+ .about_btn{
+     width: 18%;
+ }
+
+
+
+ /* Skile Section */
+ .skile_section{
+    text-align: center;
+   
+ }
+ .skile_content{
+    padding-bottom: 30px;
+
+ }
+ .skile_img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+
+   
+ }
+ .skile_img>img{
+     width: 100%;
+     overflow: hidden;
+ }
+ .skile_name{
+    color: var(--light);
+    font-size: 20px;
+ }
+ .progress{
+     width: 75%;
+     margin: 0 auto;
+ }
+ .progress-bar{
+     background-color: var(--color);
  }
