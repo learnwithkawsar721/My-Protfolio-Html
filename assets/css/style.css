@@ -273,3 +273,12 @@ a:hover{
     font-size: 36px;
     color: var(--light);
 }
+
+/* Contact Section Style  */
+.form-control{
+    background-color: var(--bg) !important;
+    box-shadow: var(--boxShadow) !important;
+    border: none !important;
+    color: var(--light) !important;
+    
+}
