@@ -16,7 +16,7 @@
   <body>
     <!-- Navbar Start -->
   
-      <nav class="navbar navbar-expand-lg nav_bg nav_shadow">
+      <nav class="navbar navbar-expand-lg nav_bg nav_shadow sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand ms-1 nav_brand" href="#">Kawsar Protfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,20 +25,20 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item active">
-                <a class="nav-link Nav_color nav_text nav_hover" href="#">Home</a>
+                <a class="nav-link Nav_color nav_text nav_hover" href="#home">Home</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link Nav_color nav_text nav_hover" href="#"
+                <a class="nav-link Nav_color nav_text nav_hover" href="#about"
                   >About</a
                 >
               </li>
               <li class="nav-item active">
-                <a class="nav-link Nav_color nav_text nav_hover" href="#"
+                <a class="nav-link Nav_color nav_text nav_hover" href="#project"
                   >Protfolio</a
                 >
               </li>
               <li class="nav-item active">
-                <a class="nav-link Nav_color nav_text nav_hover" href="#">Blog</a>
+                <a class="nav-link Nav_color nav_text nav_hover" href="#skile">Skile</a>
               </li>
               <li class="nav-item active">
                 <a class="nav-link Nav_color nav_text nav_hover" href="#"
@@ -58,7 +58,7 @@
       </nav>
     <!-- Navbar End -->
     <!-- Hero Section Start -->
-    <section class="container section_gap section_shadow" id="hero_section">
+    <section class="container section_gap section_shadow" id="home">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
           <div class="hero_content">
@@ -88,7 +88,7 @@
     <!-- Hero Section End -->
 
     <!-- About Section Start -->
-    <section class="container about_section section_gap section_shadow">
+    <section class="container about_section section_gap section_shadow" id="about">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12">
           <h2 class="about_title">About Me....</h2>
@@ -106,7 +106,7 @@
     </section>
     <!-- About Section End -->
     <!-- Skile Sction Start -->
-    <section class="container about_section section_gap section_shadow skile_section">
+    <section class="container about_section section_gap section_shadow skile_section" id="skile">
       <div class="row g-4">
         <h2 class="about_title">My Skile....</h2>
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
@@ -211,11 +211,152 @@
       </div>
     </section>
     <!-- Skile Sction End -->
+
+    <!-- Project Section Start -->
+    <section class="container section_gap section_shadow" id="project">
+      <h2 class="about_title">My Projects....</h2>
+     
+      <div class="row row-cols-1 row-cols-sm-2  row-cols-md-3 g-4 py-4">
+        <div class="col">
+          <div class="card card_bg section_shadow">
+            <img src="./assets/images/project/halthcare-html.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Health Care</h5>
+              <p class="card-text">This is a healthcare-related website. This Site uses Firebase Authentication (google sign in & email or password). Use for Privet Route services and Team Component. use for react-router.use for react-hook-form.use for dynamic route.this site is all Device responsive. this site deploys firebase hosting.</p>
+            </div>
+            <div class="card-footer">
+             <div class="d-flex justify-content-center align-content-center align-items-center">
+               <a href="https://github.com/learnwithkawsar721/health-care" target="_blank" class="project_link" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+               </a>
+               <a href="https://health-care-react-kawsar.web.app/" target="_blank" class="project_link" rel="noopener noreferrer">
+                <i class="fas fa-external-link-alt"></i>
+               </a>
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card_bg section_shadow">
+            <img src="./assets/images/project/smmpanal.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SMM Panel(Laravel)</h5>
+              <p class="card-text">This is a smm-panel-related website. This Site uses php, laravel.It allows users to order services. Can fund ad. Can order cancel request. Anyone can turn on the ticket. Admin can manage orders. Services can be added. Can add categories.</p>
+            </div>
+            <div class="card-footer">
+             <div class="d-flex justify-content-center align-content-center align-items-center">
+               <a href="https://github.com/learnwithkawsar721/health-care" target="_blank" class="project_link" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+               </a>
+               <a href="https://health-care-react-kawsar.web.app/" target="_blank" class="project_link" rel="noopener noreferrer">
+                <i class="fas fa-external-link-alt"></i>
+               </a>
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card_bg section_shadow">
+            <img src="./assets/images/project/baby-dashboard.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Baby Planet</h5>
+              <p class="card-text">This is a Baby Planet-related website. This Site uses react-js and node js.It allows users to order services. Can order cancel request. Admin can manage orders. Services can be added. Can add categories.</p>
+            </div>
+            <div class="card-footer">
+             <div class="d-flex justify-content-center align-content-center align-items-center">
+               <a href="https://github.com/learnwithkawsar721/baby-planet-client" target="_blank" class="project_link" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+               </a>
+               <a href="https://github.com/learnwithkawsar721/baby-planet-server" target="_blank" class="project_link" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+               </a>
+               <a href="https://baby-planet-b61e0.web.app/" target="_blank" class="project_link" rel="noopener noreferrer">
+                <i class="fas fa-external-link-alt"></i>
+               </a>
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card_bg section_shadow">
+            <img src="./assets/images/project/baby-dashboard.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> Winter Traveling</h5>
+              <p class="card-text">Awsome User InterFatch.use Firebase Authentication. use Google Login. easily add Booking Services. Individually user Booking. Manage All Booking Services.use MongoDB Database.
+                use Node js Server.</p>
+            </div>
+            <div class="card-footer">
+             <div class="d-flex justify-content-center align-content-center align-items-center">
+               <a href="https://github.com/learnwithkawsar721/travel-agency-client" target="_blank" class="project_link" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+               </a>
+               <a href="https://github.com/learnwithkawsar721/trabel-agencey-server" target="_blank" class="project_link" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+               </a>
+               <a href="https://travel-agency-client.web.app/" target="_blank" class="project_link" rel="noopener noreferrer">
+                <i class="fas fa-external-link-alt"></i>
+               </a>
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card_bg section_shadow">
+            <img src="./assets/images/project/restodent.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Restaurent</h5>
+              <p class="card-text">This is a Restaurent-related website. This Site uses react-js .It allows users to order services. Can order cancel. Firebase Authentication system. </p>
+            </div>
+            <div class="card-footer">
+             <div class="d-flex justify-content-center align-content-center align-items-center">
+               <a href="https://github.com/learnwithkawsar721/hot-onion-restaurent" target="_blank" class="project_link" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+               </a>
+              
+               <a href="https://hot-onion-restaurent-app.netlify.app/" target="_blank" class="project_link" rel="noopener noreferrer">
+                <i class="fas fa-external-link-alt"></i>
+               </a>
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card_bg section_shadow">
+            <img src="./assets/images/project/online.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Online Tutorial Point</h5>
+              <p class="card-text">This is a Online Tutorial Point-related website. This Site uses react-js.</p>
+            </div>
+            <div class="card-footer">
+             <div class="d-flex justify-content-center align-content-center align-items-center">
+               <a href="https://github.com/learnwithkawsar721/online-tutorial-point" target="_blank" class="project_link" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+               </a>
+              
+               <a href="https://onlinetutorial.netlify.app/" target="_blank" class="project_link" rel="noopener noreferrer">
+                <i class="fas fa-external-link-alt"></i>
+               </a>
+             </div>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <!-- Project Section End -->
+
+
+
+
     <!-- Bootstrap js -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+    <!-- Jquery js -->
+    <script src="./assets/js/jquery.js"></script>
     <script src="./assets/js/bootstrap/bootstrap.bundle.min.js"></script>
     <!-- Type js -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js"></script>
     <script src="./assets/js/TypeJs/type.function.js"></script>
+    <!-- mexitup js -->
+    <script src="./assets/js/mixetup.main.js"></script>
   </body>
 </html>

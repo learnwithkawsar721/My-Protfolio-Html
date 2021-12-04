@@ -75,6 +75,9 @@ a:hover{
   right: 0;
 }
 
+.card_bg{
+    background-color: var(--bg) !important;
+}
 
 /* Navbar Style */
 .nav_bg{
@@ -260,3 +263,13 @@ a:hover{
  .progress-bar{
      background-color: var(--color);
  }
+
+
+ /* Project Section Style */
+.project_link{
+    margin:0 20px;
+}
+.project_link i{
+    font-size: 36px;
+    color: var(--light);
+}
